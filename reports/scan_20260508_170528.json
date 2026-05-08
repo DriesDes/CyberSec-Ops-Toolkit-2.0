@@ -1,0 +1,21 @@
+{
+  "tool": "scan",
+  "generated_at": "2026-05-08T17:05:28.710519",
+  "data": {
+    "findings": [
+      {
+        "path": "C:\\Users\\Dries\\Downloads\\files\\data\\iocs.json",
+        "size_bytes": 387,
+        "extension": ".json",
+        "suspicious_extension": false,
+        "pattern_matches": [
+          "powershell.*-EncodedCommand"
+        ],
+        "scanned_at": "2026-05-08T17:05:28.709674",
+        "quarantined": null,
+        "preview_b64": "ewogICJfY29tbWVudCI6ICJJbmRpY2F0b3JzIG9mIENvbXByb21pc2UgKElvQ3MpIOKAlCBhZGQgY3VzdG9tIHBhdHRlcm5zIGFuZCBleHRlbnNpb25zIGhlcmUuIiwKICAicGF0dGVybnMiOiBbCiAgICAibmNcXHMrLWVcXHMrL2JpbiIsCiAgICAiY3VybFxccysuKlxccytcXHxcXHMrYmFzaCIsCiAgICAicG93ZXJzaGVsbC4qLUVuY29kZWRDb21tYW5kIiwKICAgICJkb2N1bWVudFxcLmNvb2tpZSIsCiAgICAiWE1MSHR0cFJlcXVlc3QuKm9wZW5cXA=="
+      }
+    ],
+    "total": 1
+  }
+}

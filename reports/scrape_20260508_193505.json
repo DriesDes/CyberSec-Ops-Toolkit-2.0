@@ -1,0 +1,19 @@
+{
+  "tool": "scrape",
+  "generated_at": "2026-05-08T19:35:05.233300",
+  "data": {
+    "url": "https://example.com",
+    "scraped_at": "2026-05-08T19:35:05.190722",
+    "title": "Example Domain",
+    "meta_description": "N/A",
+    "links_found": 1,
+    "links": [
+      "https://iana.org/domains/example"
+    ],
+    "emails_found": [],
+    "selector": "h1",
+    "selector_results": [
+      "Example Domain"
+    ]
+  }
+}

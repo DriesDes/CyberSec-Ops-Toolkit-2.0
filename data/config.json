@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "default_timeout": 1.0,
+  "max_threads": 100,
+  "scan": {
+    "quarantine_on_find": false,
+    "max_file_preview_bytes": 256
+  },
+  "net_scan": {
+    "default_ports": [21, 22, 23, 25, 53, 80, 110, 143, 443, 445, 3306, 3389, 8080, 8443],
+    "randomize": true
+  },
+  "scrape": {
+    "user_agent": "CyberSecOpsToolkit/2.0 (educational)",
+    "timeout": 10
+  },
+  "dashboard": {
+    "host": "127.0.0.1",
+    "port": 8000
+  }
+}

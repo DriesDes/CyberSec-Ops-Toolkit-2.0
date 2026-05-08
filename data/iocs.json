@@ -1,0 +1,18 @@
+{
+  "_comment": "Indicators of Compromise (IoCs) — add custom patterns and extensions here.",
+  "patterns": [
+    "nc\\s+-e\\s+/bin",
+    "curl\\s+.*\\s+\\|\\s+bash",
+    "powershell.*-EncodedCommand",
+    "document\\.cookie",
+    "XMLHttpRequest.*open\\s*\\(",
+    "eval\\(atob\\("
+  ],
+  "extensions": [
+    ".scr",
+    ".pif",
+    ".com",
+    ".jar"
+  ],
+  "known_bad_hashes": []
+}

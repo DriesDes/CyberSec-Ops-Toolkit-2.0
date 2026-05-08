@@ -1,0 +1,194 @@
+{
+  "tool": "merged_report",
+  "generated_at": "2026-05-08T19:47:28.843103",
+  "data": {
+    "merged_at": "2026-05-08T19:47:28.784838",
+    "report_count": 18,
+    "reports": [
+      {
+        "file": "net_scan_20260508_170532.json",
+        "tool": "net_scan",
+        "generated_at": "2026-05-08T17:05:32.080072",
+        "summary": {}
+      },
+      {
+        "file": "net_scan_20260508_193115.json",
+        "tool": "net_scan",
+        "generated_at": "2026-05-08T19:31:15.929954",
+        "summary": {}
+      },
+      {
+        "file": "net_scan_20260508_194130.json",
+        "tool": "net_scan",
+        "generated_at": "2026-05-08T19:41:30.250995",
+        "summary": {}
+      },
+      {
+        "file": "net_scan_20260508_194310.json",
+        "tool": "net_scan",
+        "generated_at": "2026-05-08T19:43:10.611695",
+        "summary": {}
+      },
+      {
+        "file": "net_scan_20260508_194656.json",
+        "tool": "net_scan",
+        "generated_at": "2026-05-08T19:46:56.636158",
+        "summary": {}
+      },
+      {
+        "file": "scan_20260508_170528.json",
+        "tool": "scan",
+        "generated_at": "2026-05-08T17:05:28.710519",
+        "summary": {
+          "findings_count": 1,
+          "total": 1
+        }
+      },
+      {
+        "file": "scan_20260508_191629.json",
+        "tool": "scan",
+        "generated_at": "2026-05-08T19:16:29.532992",
+        "summary": {
+          "findings_count": 2,
+          "total": 2
+        }
+      },
+      {
+        "file": "scan_20260508_192704.json",
+        "tool": "scan",
+        "generated_at": "2026-05-08T19:27:04.852463",
+        "summary": {
+          "findings_count": 3,
+          "total": 3
+        }
+      },
+      {
+        "file": "scan_20260508_193144.json",
+        "tool": "scan",
+        "generated_at": "2026-05-08T19:31:44.490145",
+        "summary": {
+          "findings_count": 3,
+          "total": 3
+        }
+      },
+      {
+        "file": "scan_20260508_193735.json",
+        "tool": "scan",
+        "generated_at": "2026-05-08T19:37:35.018815",
+        "summary": {
+          "findings_count": 3,
+          "total": 3
+        }
+      },
+      {
+        "file": "scrape_20260508_170534.json",
+        "tool": "scrape",
+        "generated_at": "2026-05-08T17:05:34.938910",
+        "summary": {
+          "url": "https://example.com",
+          "scraped_at": "2026-05-08T17:05:34.929226",
+          "title": "Example Domain",
+          "meta_description": "N/A",
+          "links_found": 1,
+          "links_count": 1,
+          "emails_found_count": 0,
+          "selector_results_count": 0
+        }
+      },
+      {
+        "file": "scrape_20260508_193505.json",
+        "tool": "scrape",
+        "generated_at": "2026-05-08T19:35:05.233300",
+        "summary": {
+          "url": "https://example.com",
+          "scraped_at": "2026-05-08T19:35:05.190722",
+          "title": "Example Domain",
+          "meta_description": "N/A",
+          "links_found": 1,
+          "links_count": 1,
+          "emails_found_count": 0,
+          "selector": "h1",
+          "selector_results_count": 1
+        }
+      },
+      {
+        "file": "scrape_20260508_193616.json",
+        "tool": "scrape",
+        "generated_at": "2026-05-08T19:36:16.666850",
+        "summary": {
+          "url": "https://example.com",
+          "scraped_at": "2026-05-08T19:36:16.647028",
+          "title": "Example Domain",
+          "meta_description": "N/A",
+          "links_found": 1,
+          "links_count": 1,
+          "emails_found_count": 0,
+          "selector": "h1",
+          "selector_results_count": 1
+        }
+      },
+      {
+        "file": "scrape_20260508_194317.json",
+        "tool": "scrape",
+        "generated_at": "2026-05-08T19:43:17.806965",
+        "summary": {
+          "url": "https://example.com",
+          "scraped_at": "2026-05-08T19:43:17.798949",
+          "title": "Example Domain",
+          "meta_description": "N/A",
+          "links_found": 1,
+          "links_count": 1,
+          "emails_found_count": 0,
+          "selector": "h1",
+          "selector_results_count": 1
+        }
+      },
+      {
+        "file": "scrape_20260508_194704.json",
+        "tool": "scrape",
+        "generated_at": "2026-05-08T19:47:04.601726",
+        "summary": {
+          "url": "https://example.com",
+          "scraped_at": "2026-05-08T19:47:04.596055",
+          "title": "Example Domain",
+          "meta_description": "N/A",
+          "links_found": 1,
+          "links_count": 1,
+          "emails_found_count": 0,
+          "selector": "h1",
+          "selector_results_count": 1
+        }
+      },
+      {
+        "file": "web_auto_20260508_170543.json",
+        "tool": "web_auto",
+        "generated_at": "2026-05-08T17:05:43.478943",
+        "summary": {
+          "url": "https://example.com",
+          "steps_count": 6,
+          "screenshots_count": 1
+        }
+      },
+      {
+        "file": "web_auto_20260508_194329.json",
+        "tool": "web_auto",
+        "generated_at": "2026-05-08T19:43:29.168356",
+        "summary": {
+          "url": "https://example.com",
+          "steps_count": 6,
+          "screenshots_count": 1
+        }
+      },
+      {
+        "file": "web_auto_20260508_194720.json",
+        "tool": "web_auto",
+        "generated_at": "2026-05-08T19:47:20.743623",
+        "summary": {
+          "url": "https://example.com",
+          "steps_count": 6,
+          "screenshots_count": 1
+        }
+      }
+    ]
+  }
+}

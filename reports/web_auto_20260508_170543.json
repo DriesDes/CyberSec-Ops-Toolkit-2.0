@@ -1,0 +1,42 @@
+{
+  "tool": "web_auto",
+  "generated_at": "2026-05-08T17:05:43.478943",
+  "data": {
+    "url": "https://example.com",
+    "steps": [
+      {
+        "action": "init",
+        "detail": "Chrome headless gestart",
+        "timestamp": "2026-05-08T17:05:41.002898"
+      },
+      {
+        "action": "navigate",
+        "detail": "https://example.com",
+        "timestamp": "2026-05-08T17:05:41.184714"
+      },
+      {
+        "action": "wait",
+        "detail": "Selector 'body' gevonden",
+        "timestamp": "2026-05-08T17:05:41.207267"
+      },
+      {
+        "action": "scroll",
+        "detail": "Gescrolld naar 50% van de pagina",
+        "timestamp": "2026-05-08T17:05:41.217642"
+      },
+      {
+        "action": "screenshot",
+        "detail": "C:\\Users\\Dries\\Downloads\\files\\data\\screenshots\\page_20260508_170541.png",
+        "timestamp": "2026-05-08T17:05:41.285405"
+      },
+      {
+        "action": "close",
+        "detail": "Browser gesloten",
+        "timestamp": "2026-05-08T17:05:43.477593"
+      }
+    ],
+    "screenshots": [
+      "C:\\Users\\Dries\\Downloads\\files\\data\\screenshots\\page_20260508_170541.png"
+    ]
+  }
+}

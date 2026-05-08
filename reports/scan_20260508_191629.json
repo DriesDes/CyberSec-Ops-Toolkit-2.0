@@ -1,0 +1,37 @@
+{
+  "tool": "scan",
+  "generated_at": "2026-05-08T19:16:29.532992",
+  "data": {
+    "findings": [
+      {
+        "path": "C:\\Users\\Dries\\Downloads\\CyberSec Ops Toolkit 2.0\\ops\\files.py",
+        "size_bytes": 5642,
+        "extension": ".py",
+        "suspicious_extension": false,
+        "pattern_matches": [
+          "eval\\s*\\(",
+          "base64_decode",
+          "exec\\s*\\("
+        ],
+        "scanned_at": "2026-05-08T19:16:29.523893",
+        "quarantined": "C:\\Users\\Dries\\Downloads\\CyberSec Ops Toolkit 2.0\\reports\\quarantine\\files.py",
+        "preview_b64": "IiIiCmZpbGVzLnB5IC0gQmVzdGFuZHNzY2FubmVyLgpab2VrdCB2ZXJkYWNodGUgYmVzdGFuZGVuIGVuIHBhdHJvbmVuLCB6ZXQgemUgZXZlbnR1ZWVsIGluIHF1YXJhbnRhaW5lIGVuIGxvZ3QgbmFhciBKU09OLgoKR2VicnVpa3RlIG1vZHVsZXM6IGdsb2IsIGZubWF0Y2gsIHBhdGhsaWIsIG9zLCBzaHV0aWwsIHNlbmQydHJhc2gsIHJlLCBiYXNlNjQsIGpzb24sIGRhdGV0aW1lCiIiIgoKaW1wb3J0IGJhc2U2NAppbXBvcnQgZm5tYXRjaAppbXBvcg=="
+      },
+      {
+        "path": "C:\\Users\\Dries\\Downloads\\CyberSec Ops Toolkit 2.0\\tests\\test_files.py",
+        "size_bytes": 3310,
+        "extension": ".py",
+        "suspicious_extension": false,
+        "pattern_matches": [
+          "eval\\s*\\(",
+          "os\\.system\\s*\\(",
+          "wget\\s+http"
+        ],
+        "scanned_at": "2026-05-08T19:16:29.529939",
+        "quarantined": "C:\\Users\\Dries\\Downloads\\CyberSec Ops Toolkit 2.0\\reports\\quarantine\\test_files.py",
+        "preview_b64": "IiIiVW5pdCB0ZXN0cyB2b29yIGRlIGJlc3RhbmRzc2Nhbm5lci4iIiIKCmltcG9ydCBiYXNlNjQKaW1wb3J0IHN5cwpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCmltcG9ydCBweXRlc3QKCnN5cy5wYXRoLmluc2VydCgwLCBzdHIoUGF0aChfX2ZpbGVfXykucGFyZW50LnBhcmVudCkpCgpmcm9tIG9wcy5maWxlcyBpbXBvcnQgRmlsZVNjYW5uZXIKCgpjbGFzcyBUZXN0RmlsZVNjYW5uZXI6CiAgICAiIiJUZXN0cyB2b29yIGRlIEZpbGVTY2FubmVyLQ=="
+      }
+    ],
+    "total": 2
+  }
+}

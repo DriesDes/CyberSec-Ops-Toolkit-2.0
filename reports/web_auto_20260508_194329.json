@@ -1,0 +1,42 @@
+{
+  "tool": "web_auto",
+  "generated_at": "2026-05-08T19:43:29.168356",
+  "data": {
+    "url": "https://example.com",
+    "steps": [
+      {
+        "action": "init",
+        "detail": "Chrome headless gestart",
+        "timestamp": "2026-05-08T19:43:26.776175"
+      },
+      {
+        "action": "navigate",
+        "detail": "https://example.com",
+        "timestamp": "2026-05-08T19:43:26.936387"
+      },
+      {
+        "action": "wait",
+        "detail": "Selector 'body' gevonden",
+        "timestamp": "2026-05-08T19:43:26.948575"
+      },
+      {
+        "action": "scroll",
+        "detail": "Gescrolld naar 50% van de pagina",
+        "timestamp": "2026-05-08T19:43:26.951456"
+      },
+      {
+        "action": "screenshot",
+        "detail": "C:\\Users\\Dries\\Downloads\\CyberSec Ops Toolkit 2.0\\data\\screenshots\\page_20260508_194326.png",
+        "timestamp": "2026-05-08T19:43:27.037350"
+      },
+      {
+        "action": "close",
+        "detail": "Browser gesloten",
+        "timestamp": "2026-05-08T19:43:29.167655"
+      }
+    ],
+    "screenshots": [
+      "C:\\Users\\Dries\\Downloads\\CyberSec Ops Toolkit 2.0\\data\\screenshots\\page_20260508_194326.png"
+    ]
+  }
+}
